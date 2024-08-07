@@ -1,0 +1,145 @@
+.body {
+    background-color: #FFCCFF;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 15px 15px 15px;
+    background-color: #99CCFF;
+    border: 10px solid black;
+}
+
+.sum {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 5px solid black;
+}
+
+.info__label {
+    font-size: 22px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 5px solid black;
+}
+
+.button {
+    width: 200px;
+    height: 75px;
+    background-color: transparent;
+    font-size: 18px;
+    transition-duration: 0.3s;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+.input {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.input-error {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 5px solid red;
+    border-radius: 30px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.input:hover {
+    background-color: white;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.result__value {
+    width: 150px;
+    aspect-ratio: 1;
+    border: 3px solid black;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.inputs__place {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.input__place_item {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+.input__place_item:hover {
+    background-color: white;
+}
+
+
+.reset {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.reset__button {
+    width: 450px;
+    height: 50px;
+    border: 3px solid black;
+    transition-duration: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.reset__button:hover {
+    background-color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
